@@ -3,10 +3,13 @@ This simple Roman Numerals Converter can be used at any time to convert numbers 
 
 Online version it's available [here](http://patiernom.github.io/roman-numerals)
 
-The Converter has a limit, it can convert numbers from 1 to 3,999. 
+The Converter has a limit, it can convert numbers from 1 to 3,999.
+
 To convert Roman numerals greater than 3,999, a leading underline character to input Roman numerals with an overline it's usually used. 
+
 A line over a Roman numeral means it is multiplied by 1,000.
-Actually this is not implemented in this version of the Converter.
+
+Actually, this is not implemented in this version of the Converter.
 
 ## Project
 The project it is powered by [React ( react-create-app )](https://reactjs.org/docs/create-a-new-react-app.html) and [Material UI](https://material-ui.com/) for the basic style and components.
@@ -58,6 +61,7 @@ The directory contains all the components used in App
 
 ##### stories
 Storybook stories
+
 `Converter.stories.js` stories for the Converter component
 
 ## Usage

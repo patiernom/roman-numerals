@@ -16,17 +16,17 @@ One.args = {
   defaultValue: 'I'
 };
 
-export const oneHundred = Template.bind({});
+export const OneHundred = Template.bind({});
 oneHundred.args = {
   defaultValue: 'C'
 };
 
-export const twoThousandAndTwenty = Template.bind({});
+export const TwoThousandAndTwenty = Template.bind({});
 twoThousandAndTwenty.args = {
   defaultValue: 'MMXX'
 };
 
-export const defaultIsNUmber = Template.bind({});
+export const DefaultIsANumber = Template.bind({});
 defaultIsNUmber.args = {
   defaultValue: 10
 };
@@ -43,7 +43,7 @@ romanInvalidNumeral.args = {
   showLabel: false,
 };
 
-export const arabicInvalidNumeral = Template.bind({});
+export const arabicInvalidNumber = Template.bind({});
 arabicInvalidNumeral.args = {
   defaultValue: 5000,
   showLabel: false,

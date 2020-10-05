@@ -1,8 +1,6 @@
 # Roman numerals Encoder and Decoder
 This simple Roman Numerals Converter can be used at any time to convert numbers to Roman numerals and vice versa.
 
-Online version it's available [here](http://patiernom.github.io/roman-numerals) 
-
 The Converter has a limit, it can convert numbers from 1 to 3,999. 
 To convert Roman numerals greater than 3,999, a leading underline character to input Roman numerals with an overline it's usually used. 
 A line over a Roman numeral means it is multiplied by 1,000.
@@ -87,18 +85,27 @@ Now you can see the Storybook page on http://localhost:6006
 
 ## Docker
 
-Clone the repository to your local directory
+Clone the repository to your local directory.
+Note: if you want run the application trough DOcker you need to modify the `package.json`like this:
+
+From:
+```json 
+"homepage": "http://patiernom.github.io/roman-numerals",
+```
+To:
+```json 
+"homepage": ".",
+```
+
+Then you can build anbd run your dockerized app
 ```bash
 $ cd roman-numerals
 $ docker build -t roman-numerals .
-// check docker images
-$ docker image ls
 // Run your image with the following command 
-// Note port 80 is mapped to port 3000 with -p
-$ docker run -d -P -p 80:3000 roman-numerals:latest
+$ docker run -p 3000:80 roman-numerals:latest
 ```
 
-## Further Implementations
+##Further Implementations
 The largest number you can write in Roman numerals is 3,999 which is MMMCMXCIX. 
 You can represent numbers larger than 3,999 in Roman numerals using an overline.
 An overline on a Roman numeral means you are multiplying that Roman numeral by 1,000.

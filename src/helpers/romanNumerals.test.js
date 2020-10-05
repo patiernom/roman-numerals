@@ -23,7 +23,7 @@ describe('Roman Numerals', () => {
       assert.throws(() => fromRoman("IVH"), Error);
     });
     
-    it('it should trigger an error if the value is more than 3999 (MMMM)',() => {
+    it('it should trigger an error if the value is bigger than 3999 (MMMM)',() => {
       assert.throws(() => fromRoman("MMMM"), Error);
     });
 

@@ -1,6 +1,6 @@
 import Joi from 'joi';
 
-const fromRomanInputSchema = Joi.string().uppercase().pattern(/^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/, 'roman numerals').required();
+const fromRomanInputSchema = Joi.string().uppercase().pattern(/^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/, 'roman numerals').required();
 const toRomanInputSchema = Joi.number().integer().min(1).max(3999).required();
 
 const toRoman = (number) => {

@@ -22,6 +22,10 @@ describe('Roman Numerals', () => {
       assert.throws(() => fromRoman("H"), Error);
       assert.throws(() => fromRoman("IVH"), Error);
     });
+    
+    it('it should trigger an error if the value is more than 3999 (MMMM)',() => {
+      assert.throws(() => fromRoman("MMMM"), Error);
+    });
 
     it('I should be 1',() => {
       const result = fromRoman('I');

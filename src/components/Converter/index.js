@@ -21,7 +21,7 @@ const Index = ({defaultValue, showLabel, romanInputLabel, arabicInputLabel}) => 
       return fromRoman(value)
     } catch (error) {
       setRomanValidationError(error.message);
-      return '';
+      return undefined;
     }
   }
 
@@ -89,7 +89,6 @@ Index.propTypes = {
 };
 
 Index.defaultProps = {
-  defaultValue: null,
   romanInputLabel: 'Roman numeral',
   arabicInputLabel: 'Arabic number (integer)',
   showLabel: true,

@@ -2,7 +2,7 @@ import { isEmpty, isNil } from "ramda";
 import { fromRomanInputSchema, toRomanInputSchema } from "./romanNumerals";
 
 export default function validDefaultValue(props, propName, componentName) {
-  if (!isNil(props[propName]) || isEmpty(props[propName])) {
+  if (!isNil(props[propName]) && !isEmpty(props[propName])) {
     let myError;
 
     if (!isNaN(Number(props[propName]))) {

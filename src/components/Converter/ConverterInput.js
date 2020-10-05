@@ -61,7 +61,7 @@ ConverterInput.propTypes = {
   romanValidationError: PropTypes.string,
   arabicValidationError: PropTypes.string,
   romanValue: PropTypes.string,
-  arabicValue: PropTypes.string,
+  arabicValue: PropTypes.number,
   handleOnChangeRoman: PropTypes.func,
   handleOnChangeArabic: PropTypes.func,
   showLabel: PropTypes.bool

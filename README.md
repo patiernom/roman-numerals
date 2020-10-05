@@ -108,7 +108,7 @@ To:
 "homepage": ".",
 ```
 
-Then you can build anbd run your dockerized app
+Then you can build and run your dockerized app
 ```bash
 $ cd roman-numerals
 $ docker build -t roman-numerals .

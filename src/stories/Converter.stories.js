@@ -17,34 +17,34 @@ One.args = {
 };
 
 export const OneHundred = Template.bind({});
-oneHundred.args = {
+OneHundred.args = {
   defaultValue: 'C'
 };
 
 export const TwoThousandAndTwenty = Template.bind({});
-twoThousandAndTwenty.args = {
+TwoThousandAndTwenty.args = {
   defaultValue: 'MMXX'
 };
 
 export const DefaultIsANumber = Template.bind({});
-defaultIsNUmber.args = {
+DefaultIsANumber.args = {
   defaultValue: 10
 };
 
-export const withoutLabels = Template.bind({});
-withoutLabels.args = {
+export const WithoutLabels = Template.bind({});
+WithoutLabels.args = {
   defaultValue: 'I',
   showLabel: false,
 };
 
-export const romanInvalidNumeral = Template.bind({});
-romanInvalidNumeral.args = {
+export const RomanInvalidNumeral = Template.bind({});
+RomanInvalidNumeral.args = {
   defaultValue: 'P',
   showLabel: false,
 };
 
-export const arabicInvalidNumber = Template.bind({});
-arabicInvalidNumeral.args = {
+export const ArabicInvalidNumber = Template.bind({});
+ArabicInvalidNumber.args = {
   defaultValue: 5000,
   showLabel: false,
 };

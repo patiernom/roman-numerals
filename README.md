@@ -12,7 +12,7 @@ Actually, this is not implemented in this version of the Converter.
 
 ## Project
 The project it is powered by [React ( react-create-app )](https://reactjs.org/docs/create-a-new-react-app.html) and [Material UI](https://material-ui.com/) for the basic style and components.
-[Mocha](https://mochajs.org/) it is used for the unit test with TDD approach on the Encoder/Decoder functions, and the component is it developed by using [Storybook](https://storybook.js.org/) in order to have a TBD environment instead of using other test methods on the React component.     
+[Mocha](https://mochajs.org/) it is used for the unit test with TDD approach on the Encoder/Decoder functions, and the component is it developed by using [Storybook](https://storybook.js.org/) in order to have a BDD environment instead of using other test methods on the React component.     
 
 #### Structure
 ```bash

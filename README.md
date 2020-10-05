@@ -3,10 +3,9 @@ This simple Roman Numerals Converter can be used at any time to convert numbers 
 
 Online version it's available [here](http://patiernom.github.io/roman-numerals)
 
+
 The Converter has a limit, it can convert numbers from 1 to 3,999.
-
 To convert Roman numerals greater than 3,999, a leading underline character to input Roman numerals with an overline it's usually used. 
-
 A line over a Roman numeral means it is multiplied by 1,000.
 
 Actually, this is not implemented in this version of the Converter.
@@ -121,13 +120,11 @@ $ docker run -p 3000:80 roman-numerals:latest
 The largest number you can write in Roman numerals is 3,999 which is MMMCMXCIX. 
 
 You can represent numbers larger than 3,999 in Roman numerals using an overline.
-
 An overline on a Roman numeral means you are multiplying that Roman numeral by 1,000.
 
 For example, L means 50 × 1,000 = 50,000. 
 
 The next step for the converter is to allow the user to use the sign "_" and change the encoder/decoder functions to handle this case. 
-
 So that to enter 50,000 into this converter as a Roman numeral it's possible to enter  _L.
 
 ## License

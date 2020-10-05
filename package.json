@@ -1,0 +1,58 @@
+{
+  "name": "roman-numerals",
+  "version": "1.0.0",
+  "description": "Roman numerals encoder and decoder",
+  "private": true,
+  "homepage": "http://patiernom.github.io/roman-numerals",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha --require esm './{,!(node_modules)/**}/*.test.js'",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "predeploy": "yarn test && yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Marco Patierno",
+  "license": "MIT",
+  "engines": {
+    "node": ">=v12.16.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/styles": "^4.10.0",
+    "clsx": "latest",
+    "esm": "^3.2.25",
+    "joi": "^17.2.1",
+    "ramda": "^0.27.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.25",
+    "@storybook/addon-essentials": "^6.0.25",
+    "@storybook/addon-links": "^6.0.25",
+    "@storybook/node-logger": "^6.0.25",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^6.0.25",
+    "babel-loader": "^8.1.0",
+    "gh-pages": "^3.1.0",
+    "mocha": "^7.2.0",
+    "react-is": "^16.13.1"
+  }
+}
